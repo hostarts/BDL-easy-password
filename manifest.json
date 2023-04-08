@@ -1,7 +1,7 @@
 {
-  "name": "EasyVisualPassword",
+  "name": "BDL Easy Password",
   "version": "1.0",
-  "description": "Extension pour remplir facilement un mot de passe",
+  "description": "Extension pour remplir facilement un mot de passe et contourner le clavier visuel",
   "manifest_version": 2,
   "permissions": [
     "activeTab",
@@ -9,7 +9,14 @@
   ],
   "browser_action": {
     "default_title": "Remplir le mot de passe",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
   },
   "content_scripts": [
     {
