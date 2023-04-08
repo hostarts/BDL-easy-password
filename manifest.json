@@ -1,0 +1,20 @@
+{
+  "name": "EasyVisualPassword",
+  "version": "1.0",
+  "description": "Extension pour remplir facilement un mot de passe",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "chrome.permissions"
+  ],
+  "browser_action": {
+    "default_title": "Remplir le mot de passe",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#password_input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+#fill_button {
+  display: block;
+  background-color: #0078e7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+}
