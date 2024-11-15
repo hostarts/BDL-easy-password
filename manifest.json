@@ -2,12 +2,14 @@
   "name": "BDL Easy Password",
   "version": "1.0",
   "description": "Extension pour remplir facilement un mot de passe et contourner le clavier visuel",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": [
-    "activeTab",
-    "chrome.permissions"
+    "activeTab"
   ],
-  "browser_action": {
+  "host_permissions": [
+    "https://*.bdl.dz/*"
+  ],
+  "action": {
     "default_title": "Remplir le mot de passe",
     "default_popup": "popup.html",
     "default_icon": "logo.png"
