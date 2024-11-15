@@ -2,6 +2,10 @@
 
 BDL Easy Password is a Chrome extension designed to simplify password entry on interfaces that use visual keyboards. It bypasses manual input by automating password entry through script injection.
 
+## Demo
+
+https://github.com/user-attachments/assets/41b26df8-390b-4ca2-ab22-196d5ca51ed6
+
 ## Features
 
 - Automatically fill password fields without interacting with the visual keyboard.
